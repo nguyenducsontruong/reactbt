@@ -22,6 +22,8 @@ function App() {
          <Route path="/lienhe" component = {Lienhe1} />
          <Route path="/product" component = {product} />
     </Router>
+    <Home />
+    <Product />
     <Lienhe />
     <End />       
      
