@@ -18,10 +18,11 @@ function App() {
     <div className="App">
     <Menu /> 
     <Router>
-        <Route path="/reactbt/" exact  component = {home} />
+        <Route path="/" exact  component = {home} />
          <Route path="/lienhe" component = {Lienhe1} />
          <Route path="/product" component = {product} />
-    </Router>  
+    </Router>
+    <Lienhe />
     <End />       
      
     </div>
